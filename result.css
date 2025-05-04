@@ -1,0 +1,118 @@
+:root {
+  --barkgroundColor: hsl(0, 0%, 0%);
+  --accentColor: hsl(40, 100%, 40%);
+  --buttonColor : hsl(39, 100%, 50%);
+  --divColor: rgb(34, 23, 23);
+}
+
+
+body {
+  background-color: var(--barkgroundColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ html {
+  color: white;
+ }
+.generalcontainer {
+  background-color: var(--divColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 20px;
+}
+.detailsimage {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.title {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--accentColor);
+}
+.plot {
+  background-color: var(--barkgroundColor);
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  margin-bottom: 40PX;
+}
+.plot p {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--);
+  text-align: center;
+}
+.runtime {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.runtime p {
+  background-color: var(--barkgroundColor);
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  margin-bottom: 40PX;
+}
+.runtime p:hover {
+  background-color: var(--accentColor);
+}
+.castcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cast {
+ margin-bottom: 10px;
+ background-color: black;
+ padding: 10px;
+ font-family: arial;
+ font-weight: bolder;
+ font-size: 1rem;
+ border-radius: 10px;
+ width: 200%;
+ text-align: center;
+ color: var(--accentColor);
+}
+.actors {
+  color: white;
+  padding: 10px;
+  font-style: italic;
+  
+}
+.specialdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.genre {
+  background-color: var(--barkgroundColor);
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.specialdetails p {
+  background-color: var(--barkgroundColor);
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+.specialdetails {
+  
+}
